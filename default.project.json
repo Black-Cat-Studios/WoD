@@ -2,70 +2,64 @@
   "name": "WoD",
   "tree": {
     "$className": "DataModel",
-
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Outlines": false,
+        "Technology": "Voxel",
+        "GlobalShadows": true,
+        "Ambient": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Brightness": 2.0
+      }
+    },
     "ReplicatedStorage": {
-      "Common": {
-        "$path": "src/shared"
+      "$className": "ReplicatedStorage",
+      "Source": {
+        "$path": "src"
       }
     },
-
-    "ServerScriptService": {
-      "Server": {
-        "$path": "src/server"
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "RespectFilteringEnabled": true
       }
     },
-
-    "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "Client": {
-          "$path": "src/client"
-        }
-      }
-    },
-
     "Workspace": {
+      "$className": "Workspace",
       "$properties": {
         "FilteringEnabled": true
       },
       "Baseplate": {
         "$className": "Part",
         "$properties": {
-          "Anchored": true,
           "Color": [
             0.38823,
             0.37254,
             0.38823
           ],
-          "Locked": true,
           "Position": [
-            0,
-            -10,
-            0
+            0.0,
+            -10.0,
+            0.0
           ],
           "Size": [
-            512,
-            20,
-            512
-          ]
+            512.0,
+            20.0,
+            512.0
+          ],
+          "Anchored": true,
+          "Locked": true
         }
-      }
-    },
-    "Lighting": {
-      "$properties": {
-        "Ambient": [
-          0,
-          0,
-          0
-        ],
-        "Brightness": 2,
-        "GlobalShadows": true,
-        "Outlines": false,
-        "Technology": "Voxel"
-      }
-    },
-    "SoundService": {
-      "$properties": {
-        "RespectFilteringEnabled": true
       }
     }
   }
