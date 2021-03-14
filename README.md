@@ -1,7 +1,7 @@
-# Words of Discouragement
+# Words of Demotivation
 
-Words of Discouragement is a Roblox Studio plugin based on pa00's "Words of Encouragement".  
-Instead of displaying motivational quotes, like pa00's plugin, this one discourages you.  
+Words of Demotivation is a Roblox Studio plugin based on pa00's "Words of Encouragement".  
+Instead of displaying motivational quotes, like pa00's plugin, this one demotivates you.  
 
 # Installation
 
